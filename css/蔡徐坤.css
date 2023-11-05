@@ -1,0 +1,236 @@
+/* 清除基本样式 */
+* {
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* 设置鼠标在页面中的图标 */
+html:hover {
+    cursor: url("../images/透明坤头图标\ .png"), auto;
+}
+
+a:hover,
+input:hover,
+button:hover,
+video:hover,
+img:hover{
+    cursor: url("../images/经典坤图图标.png"), pointer;
+}
+
+/* 设置全面蔡徐坤背景 */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(../images/cxk3.png) repeat top center/cover;
+}
+
+/* 设置导航条 */
+.topbar {
+    background-color: #383838b6;
+}
+
+.welcome {
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    color: #DD302D;
+}
+
+.welcome span,
+.welcome a {
+    font-size: 12px;
+    color: #DD302D;
+}
+
+.welcome .hello {
+    margin-right: 28px;
+}
+
+.welcome .login {
+    padding-right: 10px;
+    border-right: 1px solid #DD302D;
+}
+
+.welcome .register {
+    padding-left: 10px;
+}
+
+.topbar-nav .list {
+    height: 30px;
+    line-height: 30px;
+}
+
+.topbar-nav .list li {
+    float: left;
+}
+
+.topbar-nav .list li a {
+    padding: 0 15px;
+    border-right: 1px solid #DD302D;
+}
+
+.topbar-nav .list li:first-child a {
+    padding-left: 0;
+    color: #DD302D;
+}
+
+.topbar-nav .list li:last-child a {
+    padding-right: 0;
+    border: 0;
+    color: #DD302D;
+}
+
+/* #region头部start */
+.header {
+    height: 120px;
+}
+
+.header .logo img,
+p {
+    float: left;
+    height: 120px;
+}
+
+.header .logo p {
+    font-size: 30px;
+    line-height: 120px;
+    color: #DD302D;
+}
+
+.header .search form {
+    margin-top: 42px;
+    font-size: 0;
+}
+
+.header .search input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid #DD302D;
+}
+
+.header .search button {
+    width: 80px;
+    height: 36px;
+    background-color: #DD302D;
+    vertical-align: top;
+    background-image: url('../images/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+
+/* #endregion头部end */
+
+/* 简介 */
+.introduce {
+    column-count: 2;
+    border-top: 3px dashed red;
+}
+
+.introduce p {
+    font-size: 17px;
+    color: #DD302D;
+}
+
+.introduce h1 {
+    font-size: 30px;
+    color: #DD302D;
+}
+
+/* 歌曲+视频 */
+/* 歌曲 */
+.sandm {
+    border-top: 3px dashed red;
+}
+
+.classic-song {
+    float: left;
+}
+
+.classic-song li {
+    color: skyblue;
+    font-size: 30px;
+}
+
+.classic-song li a {
+    color: purple;
+    font-size: 30px;
+}
+
+/* 视频 */
+.video {
+    float: right;
+}
+
+.video .text {
+    font-size: 30px;
+    display: block;
+    color: red;
+}
+
+.video video {
+    height: 170px;
+}
+
+/* 问卷和变换*/
+.container:nth-child(5){
+    margin-top: 5px;
+    padding: 10px 0;
+    border-top: 1px dashed red;
+    border-bottom: 1px dashed red;
+}
+.survey {
+    float: left;
+}
+
+div>form {
+    font-size: 30px;
+    color: skyblue;
+}
+
+div>h4 {
+    font: 30px "Hanzipen SC", sans-serif;
+    color: purple;
+}
+
+.song {
+    text-decoration: none;
+}
+
+#apple {
+    color: red;
+}
+
+#mango {
+    color: yellow;
+}
+
+#pear {
+    color: yellowgreen;
+}
+
+/* 转换图 */
+.turn img {
+    float: right;
+    height: 310px;
+}
